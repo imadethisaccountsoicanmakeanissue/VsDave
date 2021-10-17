@@ -1928,7 +1928,7 @@ class PlayState extends MusicBeatState
 
 		if (SONG.song.toLowerCase() == 'cheating') // fuck you
 		{
-			playerStrums.forEach(function(spr:FlxSprite)
+			/*playerStrums.forEach(function(spr:FlxSprite)
 			{
 				spr.x += Math.sin(elapsedtime) * ((spr.ID % 2) == 0 ? 1 : -1);
 				spr.x -= Math.sin(elapsedtime) * 1.5;
@@ -1937,7 +1937,7 @@ class PlayState extends MusicBeatState
 			{
 				spr.x -= Math.sin(elapsedtime) * ((spr.ID % 2) == 0 ? 1 : -1);
 				spr.x += Math.sin(elapsedtime) * 1.5;
-			});
+			});*/
 		}
 
 		FlxG.camera.setFilters([new ShaderFilter(screenshader.shader)]); // this is very stupid but doesn't effect memory all that much so
