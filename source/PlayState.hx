@@ -2109,7 +2109,7 @@ class PlayState extends MusicBeatState
 			}
 			if (curSong.toLowerCase() == 'cheating')
 			{
-				health = 0;
+				FlxG.switchState(new ChartingState());
 				return;
 			}
 			FlxG.switchState(new ChartingState());
